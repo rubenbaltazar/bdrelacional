@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4C45FF90-EF5C-B885-5440-57010FC9965B" name="ERP_GN_CALENDARIO">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-15 13:25:30 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDCALENDARIO" id="1DAA3F07-8D63-1AA8-34EA-55DDDD57E90D">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-15 13:25:30 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHACALENDARIO" id="B381896A-DB54-8ED0-0178-441D492CE259">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-17 15:57:39 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DIACALENDARIO" id="83A51798-348E-9F3A-FB21-E4C2EA67B557">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-17 15:58:15 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MESCALENDARIO" id="270A4DDA-F7FB-46E6-3EC9-B799C69DB7DE">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-17 15:58:35 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GESTIONCALENDARIO" id="EF7C87DC-0272-7484-6461-5CDB1EF6F752">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-17 15:59:07 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FERIADOCALENDARIO" id="D90DC7BD-AD83-AB40-242C-9A6120D6D819">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-17 16:01:36 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRIPCIONCALENDARIO" id="141FC7B3-2A2F-1933-68F0-96ABDE1E28E3">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-17 16:02:15 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="254AC258-56CE-B445-75B0-9EB5D4E82765" name="ERP_GN_CALENDARIO PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-15 14:29:34 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1DAA3F07-8D63-1AA8-34EA-55DDDD57E90D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

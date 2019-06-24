@@ -1,0 +1,34 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C4A8E086-9657-6250-B501-8C6A133AE896" name="ERP_GN_CALENDARIO">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-16 13:57:44 UTC</createdTime>
+<generatorID>4C45FF90-EF5C-B885-5440-57010FC9965B</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDCALENDARIO" id="CF6F9E7C-8540-031A-B4BF-D6910D3EF2F1">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-16 13:57:44 UTC</createdTime>
+<generatorID>1DAA3F07-8D63-1AA8-34EA-55DDDD57E90D</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="43339EA0-89D8-3AAA-5590-4C62EB515F2B" name="ERP_GN_CALENDARIO_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-16 13:57:44 UTC</createdTime>
+<generatorID>254AC258-56CE-B445-75B0-9EB5D4E82765</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

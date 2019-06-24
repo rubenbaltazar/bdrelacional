@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Estudiante Tiene Muchos Detalles de Clase" directorySegmentName="seg_0" id="775B78EC-F91B-F0EA-253B-1852DF469E1F">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-13 16:20:35 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<sourcePk>F8C4B50F-0D44-FC04-85AB-0BDB5BA8CF6E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>996DC202-2A14-FCA0-B779-2C63D7EB4367</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>47A617F9-7694-C812-57AA-4481B6C594C3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

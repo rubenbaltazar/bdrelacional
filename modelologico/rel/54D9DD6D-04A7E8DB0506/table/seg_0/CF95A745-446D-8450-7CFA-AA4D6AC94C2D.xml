@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CF95A745-446D-8450-7CFA-AA4D6AC94C2D" name="ERP_GN_DOCUMENTO">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-13 16:16:25 UTC</createdTime>
+<generatorID>9DBD528D-173F-0688-00E8-D53303D4D581</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDDOCUMENTO" id="626F8A27-9500-0C23-D8E5-1A4867BA10D9">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-13 16:16:25 UTC</createdTime>
+<generatorID>D6221D4B-122B-2354-09AB-2CEC398B0A4F</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGODOCUMENTO" id="EB1B7FE0-E3BC-73FB-6BB5-D1824D482C39">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-13 16:16:25 UTC</createdTime>
+<generatorID>ACF3537E-CD83-906F-8B04-661E28698769</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBREDOCUMENTO" id="4BBDAFF3-298F-CDDE-BD44-608799F671FB">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-13 16:16:25 UTC</createdTime>
+<generatorID>D890EB25-594E-A5D1-7293-1893CA8C61D7</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ERP_GN_CATEGORIA_DOCUMENTO_ERP_GN_CATEGORIA_DOCUMENTO_ID" id="65B6B672-C9D1-E345-7B17-6BE6E0AF9690">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-16 13:57:44 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9D07BE57-3AE5-A8DC-A6AF-61571AE7D76C" referredColumn="1A544FC5-B0DE-0FED-EEB7-B506E2634F9D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="48A95C5F-CEE7-007F-15C4-9C021FCBDA35" name="ERP_GN_DOCUMENTO_PKv1">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-16 13:57:44 UTC</createdTime>
+<generatorID>AED3C7B2-B99B-9A74-E86C-2FDAAE01863F</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="A6EE1A1B-1A05-F536-A76D-5918173F4D74" name="ERP_GN_DOCUMENTO_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-13 16:16:25 UTC</createdTime>
+<generatorID>E3C230A9-9D1A-E38B-6CED-95ACACD0158A</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="626F8A27-9500-0C23-D8E5-1A4867BA10D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C3482C7-95E6-186F-3980-545AA49E026E" name="ERP_GN_DOCUMENTO_ERP_GN_CATEGORIA_DOCUMENTO_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-16 13:57:44 UTC</createdTime>
+<generatorID>0B4CCD09-CA2A-2541-0287-1299C3389D7D</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65B6B672-C9D1-E345-7B17-6BE6E0AF9690"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

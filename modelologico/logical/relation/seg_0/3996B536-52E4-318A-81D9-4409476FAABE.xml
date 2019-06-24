@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Escala Tiene Detalle" directorySegmentName="seg_0" id="3996B536-52E4-318A-81D9-4409476FAABE">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-15 18:47:50 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<sourcePk>48CEB06B-633C-3713-9953-AB71C1A8394A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6B1C4E9D-9EBC-1CD3-A432-582D2E5DCDE2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6D3F2D6E-59E5-BB45-A7B8-2C29B25299F4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

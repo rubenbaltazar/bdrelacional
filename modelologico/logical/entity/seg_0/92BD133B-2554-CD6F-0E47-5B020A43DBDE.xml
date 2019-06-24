@@ -1,0 +1,191 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="92BD133B-2554-CD6F-0E47-5B020A43DBDE" name="ERP_AC_MATERIA">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-13 15:07:40 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDMATERIA" id="F0F6972F-FAE7-DD29-DC14-7DCEE820858E">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-13 15:07:40 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CODIGOMATERIA" id="F22D8306-E426-DF20-78BE-1B7BF68DFEB7">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-13 15:07:40 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBREMATERIA" id="80367136-D212-19B2-2555-68BA3A800C63">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-13 15:08:29 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDMATERIADEPENDENCIA" id="43F4A2BF-5CEC-0DB9-9123-B805B60212EA">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-13 15:21:12 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDNIVELMATERIA" id="3493ACE7-99AC-0F7D-634F-41B3F519BFFB">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-15 14:28:36 UTC</createdTime>
+<generatorID>D0728854-9631-D5F6-0164-E730DBE31CD4</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<referedAttribute>92B8EAE7-46AF-EEDF-0AC1-2912E97E5731</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDTEXTOLIBRO" id="C7A77929-F497-CFD7-3FEC-939E0478F2C3">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-15 14:29:48 UTC</createdTime>
+<generatorID>19DF89DD-0B71-FDC5-5C94-B1A73DE372DB</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<referedAttribute>60B2E64D-61F1-C80B-E90C-73A955DA126B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDTIPOPROGRAMA" id="2CAE667B-9E23-257E-0205-04FE896BA462">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-16 13:29:54 UTC</createdTime>
+<generatorID>488C4B98-4265-256D-6B40-50E68254F78F</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<referedAttribute>70B82F88-E63E-4A55-2BD0-79A6C1F957D1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHASISTEMAMATERIA" id="8CEDDA2E-DC98-7015-6274-33744B4D005E">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-16 13:46:53 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHACREACIONMATERIA" id="33DB599C-72FF-0181-7428-5D98FEAF9133">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-16 13:46:53 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHAMODMATERIA" id="AF46BDAC-775C-FA28-55DB-E4520AA2951D">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-16 13:46:53 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="WUSERIDMATERIA" id="E374A560-22F6-3645-4120-0BBE3228F41A">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-16 13:46:53 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UIDUSERMATERIA" id="41CA4C89-018E-026F-8BD6-D3E94B6A035A">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-16 13:46:53 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F65B2525-B870-4F9F-F9E0-C1F07ADDB28E" name="ERP_AC_MATERIA PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-15 14:29:09 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F0F6972F-FAE7-DD29-DC14-7DCEE820858E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

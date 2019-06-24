@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FA7C1819-15DB-9B48-59AF-EEB6EE0BF0DE" containerWithKeyObject="81E25FC5-7B4A-1E63-5146-40E156A63304" localFKIndex="6BB4CD70-79DC-67BE-B595-84B25A7027CC" name="ERP_AC_MATERIA_ERP_AC_NIVEL_MATERIA_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-13 16:16:25 UTC</createdTime>
+<generatorID>D0728854-9631-D5F6-0164-E730DBE31CD4</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<referredTableLongName>ERP_AC_NIVEL_MATERIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2B7D73A0-66A8-BE6B-3A53-C12DB3B32216</referredTableID>
+<keyObject>D827C12D-FA42-9034-E13C-4664C92236FF</keyObject>
+<referredKeyID>D827C12D-FA42-9034-E13C-4664C92236FF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IDNIVELMATERIA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

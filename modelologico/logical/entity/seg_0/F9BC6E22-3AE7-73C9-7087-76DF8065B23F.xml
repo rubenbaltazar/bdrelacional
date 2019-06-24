@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F9BC6E22-3AE7-73C9-7087-76DF8065B23F" name="ERP_AC_AULA">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-15 13:05:23 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDAULA" id="4B6E7373-5E4F-0C45-AA3C-2457CA41133B">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-15 13:05:23 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CODIGOAULA" id="EF2CB5C1-E888-D2B4-B506-F15AC8E772C8">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-15 13:05:23 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBREAULA" id="88615228-300F-41DE-F76E-A7871424B98B">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-22 18:48:45 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="92BE68C8-B18D-260B-9CA1-AB19780C2917" name="ERP_AC_AULA PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-15 14:31:05 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4B6E7373-5E4F-0C45-AA3C-2457CA41133B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

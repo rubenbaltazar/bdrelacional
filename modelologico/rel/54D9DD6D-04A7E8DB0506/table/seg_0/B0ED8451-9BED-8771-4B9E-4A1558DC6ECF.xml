@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B0ED8451-9BED-8771-4B9E-4A1558DC6ECF" name="ERP_AC_INSTRUCTOR">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-13 16:16:25 UTC</createdTime>
+<generatorID>2680EC31-E38C-5254-81C8-515C58D1AF1B</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDINSTRUCTOR" id="7F91DE88-E143-6CC7-1387-55E0C6079BE7">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-13 16:16:25 UTC</createdTime>
+<generatorID>1A58F322-11F1-B9F6-229D-92FC9059E998</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGOINSTRUCTOR" id="C707DF52-50D2-FA0D-0CAF-E613199166F6">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-13 16:16:25 UTC</createdTime>
+<generatorID>40DC23E1-E225-11E9-DFFC-DCF1E821C6B3</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7B0778FF-1358-08DD-16CB-BFAC05025027" name="ERP_AC_INSTRUCTOR_PKv1">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-16 13:57:44 UTC</createdTime>
+<generatorID>5C997D3D-8A9B-0F42-F648-B5968AC529EB</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="08EC2EA1-5CF3-6485-768E-5DD18D93A015" name="ERP_AC_INSTRUCTOR_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-13 16:16:25 UTC</createdTime>
+<generatorID>4E248036-4C65-A4CA-3ED7-5A3A7119A446</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F91DE88-E143-6CC7-1387-55E0C6079BE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

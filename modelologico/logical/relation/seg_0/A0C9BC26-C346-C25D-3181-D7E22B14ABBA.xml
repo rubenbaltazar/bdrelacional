@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="La Materia Corresponde a Muchos Cursos" directorySegmentName="seg_0" id="A0C9BC26-C346-C25D-3181-D7E22B14ABBA">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-13 15:25:05 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<sourcePk>F65B2525-B870-4F9F-F9E0-C1F07ADDB28E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>92BD133B-2554-CD6F-0E47-5B020A43DBDE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9EB87A1B-7CA4-BAD9-773C-41002D18BBE6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

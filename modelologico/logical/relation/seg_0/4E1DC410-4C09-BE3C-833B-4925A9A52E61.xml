@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="El Horario tiene Varios cursos" directorySegmentName="seg_0" id="4E1DC410-4C09-BE3C-833B-4925A9A52E61">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-15 13:16:24 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<sourcePk>5C12B7F6-5B4A-E9E5-DFCE-8988156408C8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C56AC6A2-F115-0041-274F-D79158E5BC43</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9EB87A1B-7CA4-BAD9-773C-41002D18BBE6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

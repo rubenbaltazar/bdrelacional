@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="747C9D56-263C-BD20-60D5-EFB52FCEEA1B" containerWithKeyObject="539B60B1-E23F-E67D-7096-112D7A4515B8" localFKIndex="4E3C954A-74F9-49AF-0214-48BAE261FE53" name="CURSO_ERP_AC_AULA_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-16 13:57:44 UTC</createdTime>
+<generatorID>BBBD0443-63FB-C20E-428F-705339EE050F</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<referredTableLongName>ERP_AC_AULA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2D0A984F-F5C2-886F-A3F1-63A49243F2A3</referredTableID>
+<keyObject>1F782125-9B90-21EB-26D6-39C444477B5C</keyObject>
+<referredKeyID>1F782125-9B90-21EB-26D6-39C444477B5C</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

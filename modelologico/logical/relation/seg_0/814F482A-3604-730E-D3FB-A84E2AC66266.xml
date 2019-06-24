@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Materia Equivalencia" directorySegmentName="seg_0" id="814F482A-3604-730E-D3FB-A84E2AC66266">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-15 14:11:45 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<sourcePk>F65B2525-B870-4F9F-F9E0-C1F07ADDB28E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>92BD133B-2554-CD6F-0E47-5B020A43DBDE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>21A03F19-EF7B-692D-79E3-516BC6BD21B0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

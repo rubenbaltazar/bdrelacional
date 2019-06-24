@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9EB87A1B-7CA4-BAD9-773C-41002D18BBE6" name="CURSO">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-13 15:22:34 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDCURSO" id="6E2089BB-1B80-71C9-E620-3E9ED385F2D0">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-13 15:22:34 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CODIGOCURSO" id="484BD0A5-BB74-84DA-615A-CB8BC9A28F3D">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-13 15:22:34 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDHORARIO" id="382F3B97-D19C-1096-4C83-7643729A355A">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-15 14:30:59 UTC</createdTime>
+<generatorID>4E1DC410-4C09-BE3C-833B-4925A9A52E61</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<referedAttribute>5DBBB0A3-401A-5275-9766-15456421537B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDAULA" id="FFCABFFA-92B0-DCEF-C821-129D362A92B3">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-15 14:31:05 UTC</createdTime>
+<generatorID>BBBD0443-63FB-C20E-428F-705339EE050F</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<referedAttribute>4B6E7373-5E4F-0C45-AA3C-2457CA41133B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDPERIODO" id="8DF3914C-8729-A3CE-E09F-75CF71B93041">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-15 14:31:34 UTC</createdTime>
+<generatorID>95C93FAB-F268-895C-3760-C2C568A411F4</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<referedAttribute>97F1BE95-A88C-3ABE-6133-92C2CB867874</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDMATERIA" id="EB1F3248-F47F-A035-0116-A9068331AD0D">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-16 13:48:07 UTC</createdTime>
+<generatorID>A0C9BC26-C346-C25D-3181-D7E22B14ABBA</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<referedAttribute>F0F6972F-FAE7-DD29-DC14-7DCEE820858E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDPERSONAL" id="C8DB0C9A-892A-5312-691E-48796184FCB5">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-22 18:35:42 UTC</createdTime>
+<generatorID>948B402E-4BDE-1CFE-11AF-97324F0D91A8</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<referedAttribute>1A58F322-11F1-B9F6-229D-92FC9059E998</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="84375F3F-AAC8-3AE1-448C-5026197C2A81" name="CURSO PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-15 14:30:02 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Categoria Documentos Tiene Varios Documentos" directorySegmentName="seg_0" id="0B4CCD09-CA2A-2541-0287-1299C3389D7D">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-15 13:03:46 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>179F79B0-55ED-5711-3E55-4262668D1109</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9DBD528D-173F-0688-00E8-D53303D4D581</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

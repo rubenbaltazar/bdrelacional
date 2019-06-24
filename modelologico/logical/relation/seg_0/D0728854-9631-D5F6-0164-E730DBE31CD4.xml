@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Nivel De Materia Tiene muchas Materias" directorySegmentName="seg_0" id="D0728854-9631-D5F6-0164-E730DBE31CD4">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-13 15:19:39 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<sourcePk>9577080E-222C-40BD-9048-544AF7F5C154</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5B775B61-E2DD-B6EB-1BFE-B062A9959483</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>92BD133B-2554-CD6F-0E47-5B020A43DBDE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

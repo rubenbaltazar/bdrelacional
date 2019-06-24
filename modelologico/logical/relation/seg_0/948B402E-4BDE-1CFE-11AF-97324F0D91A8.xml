@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Personal Tiene Clases" directorySegmentName="seg_0" id="948B402E-4BDE-1CFE-11AF-97324F0D91A8">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-22 18:35:42 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<sourcePk>5C997D3D-8A9B-0F42-F648-B5968AC529EB</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2680EC31-E38C-5254-81C8-515C58D1AF1B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9EB87A1B-7CA4-BAD9-773C-41002D18BBE6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6E754608-FFAA-A00D-777F-5EB5FE71D6A6" name="ERP_AC_ESTUDIANTE">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-13 13:49:46 UTC</createdTime>
+<generatorID>996DC202-2A14-FCA0-B779-2C63D7EB4367</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDESTUDIANTE" id="5D40AA33-4B56-8B84-B7BE-954A43A7DA31">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-13 13:49:46 UTC</createdTime>
+<generatorID>F065E92A-6E56-EBF9-997B-8A9E6ED3F86E</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,1,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRES" id="745482AD-68B5-A3CF-4AC5-0ED23B87C174">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-13 13:49:46 UTC</createdTime>
+<generatorID>90D2CD4B-75BD-6A8C-A4D1-094B36F0A1FA</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="325A06C0-F7FF-B3AB-52A7-28D6D19FF490" name="ERP_AC_ESTUDIANTE_PKv1">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-16 13:57:44 UTC</createdTime>
+<generatorID>F8C4B50F-0D44-FC04-85AB-0BDB5BA8CF6E</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="F2D0B854-ABF2-C065-A81A-921AFAB22AE3" name="ERP_AC_ESTUDIANTE_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-13 13:49:46 UTC</createdTime>
+<generatorID>70CDD339-23A8-D701-2E9B-4FC26CD73482</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

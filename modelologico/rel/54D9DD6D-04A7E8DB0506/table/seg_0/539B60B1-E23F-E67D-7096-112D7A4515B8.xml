@@ -1,0 +1,177 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="539B60B1-E23F-E67D-7096-112D7A4515B8" name="CURSO">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-13 16:16:25 UTC</createdTime>
+<generatorID>9EB87A1B-7CA4-BAD9-773C-41002D18BBE6</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDCURSO" id="2F6D8498-4B73-D507-520E-0FBDA041FEEA">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-13 16:16:25 UTC</createdTime>
+<generatorID>6E2089BB-1B80-71C9-E620-3E9ED385F2D0</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGOCURSO" id="869CFF45-457E-D79B-DBA5-53432E70BD76">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-13 16:16:25 UTC</createdTime>
+<generatorID>484BD0A5-BB74-84DA-615A-CB8BC9A28F3D</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ERP_AC_MATERIA_IDMATERIA" id="67FE11B8-3AB2-8047-24A7-EF2E47EBF7DA">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-13 16:16:25 UTC</createdTime>
+<generatorID>FB92055C-DC9C-622F-136F-9B4EAE7D623A</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ERP_AC_INSTRUCTOR_IDINSTRUCTOR" id="A5B2871F-E73C-6EB3-9C6C-D2BEAAA2572D">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-13 16:16:25 UTC</createdTime>
+<generatorID>44936C26-3B66-E33D-1405-19550882A0FF</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDHORARIO" id="A3A0EE5E-AE69-89BA-1B36-1F4099B95EB6">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-16 13:57:43 UTC</createdTime>
+<generatorID>382F3B97-D19C-1096-4C83-7643729A355A</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDAULA" id="3A592BA0-3984-F9EC-B47D-E12E75C59860">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-16 13:57:43 UTC</createdTime>
+<generatorID>FFCABFFA-92B0-DCEF-C821-129D362A92B3</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDPERIODO" id="9D990EC3-FB94-30D4-E16E-390F6356F4A5">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-16 13:57:43 UTC</createdTime>
+<generatorID>8DF3914C-8729-A3CE-E09F-75CF71B93041</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDMATERIA" id="D8AB5CE3-7923-F811-E710-5B36C21200D7">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-16 13:57:43 UTC</createdTime>
+<generatorID>EB1F3248-F47F-A035-0116-A9068331AD0D</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="86964CA1-5FB9-3A23-DBB3-EC5051786ABC" name="CURSO_PKv1">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-16 13:57:43 UTC</createdTime>
+<generatorID>84375F3F-AAC8-3AE1-448C-5026197C2A81</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="4567F9AB-2295-7F24-62A5-AD45BE2B7AAC" name="CURSO_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-13 16:16:25 UTC</createdTime>
+<generatorID>52055797-EFB3-FB66-3636-C1C5FA7CB14F</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F6D8498-4B73-D507-520E-0FBDA041FEEA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="976D930F-5F7A-08DE-8A42-D4AC5670C2A2" name="CURSO_ERP_AC_INSTRUCTOR_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-13 16:16:25 UTC</createdTime>
+<generatorID>646F39F1-DAE6-6616-5CFD-03F1584272ED</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="B123A7F4-DEBF-DA48-5AA7-6532206036BD" name="CURSO_ERP_AC_MATERIA_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-13 16:16:25 UTC</createdTime>
+<generatorID>A0C9BC26-C346-C25D-3181-D7E22B14ABBA</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="4E3C954A-74F9-49AF-0214-48BAE261FE53" name="CURSO_ERP_AC_AULA_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-16 13:57:44 UTC</createdTime>
+<generatorID>BBBD0443-63FB-C20E-428F-705339EE050F</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="B1F9329E-F4BF-08A2-03A9-5BF03F60A8A4" name="CURSO_ERP_AC_HORARIO_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-16 13:57:44 UTC</createdTime>
+<generatorID>4E1DC410-4C09-BE3C-833B-4925A9A52E61</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="F1227B59-7C8D-9E86-4906-D18F6E1836DD" name="CURSO_ERP_AC_PERIODO_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-16 13:57:44 UTC</createdTime>
+<generatorID>95C93FAB-F268-895C-3760-C2C568A411F4</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="49702896-40DB-C5B7-3BE7-2D2AA537CFF6" name="CURSO_ERP_GN_DOCUMENTO_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-16 13:57:44 UTC</createdTime>
+<generatorID>0C7EB746-0D7C-0D5D-BFDB-259F3C864CFE</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

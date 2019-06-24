@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DDD556DD-998F-2D8D-5435-C81CF757E856" containerWithKeyObject="DB4270FA-7D37-0F9B-43D8-0AD60363308A" localFKIndex="FF4E7A5E-4B33-6322-0E88-F74AE49A9A9D" name="ERP_AC_EVALUACION_DETALLE_ERP_AC_CONCEPTO_EVALUACION_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-13 16:16:25 UTC</createdTime>
+<generatorID>CA9C67EB-E65B-9AB9-5504-98501AA95694</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<referredTableLongName>ERP_AC_CONCEPTO_EVALUACION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CE6D9C4D-1468-E5B7-BEFA-9964315D094E</referredTableID>
+<keyObject>BEF352A9-ACFA-CE2A-901A-C8FB3A34A32E</keyObject>
+<referredKeyID>BEF352A9-ACFA-CE2A-901A-C8FB3A34A32E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IDCONCEPTOEVALUACION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

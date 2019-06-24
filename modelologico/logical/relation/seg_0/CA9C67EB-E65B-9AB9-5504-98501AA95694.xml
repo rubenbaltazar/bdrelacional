@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Concepto De Evaluacion" directorySegmentName="seg_0" id="CA9C67EB-E65B-9AB9-5504-98501AA95694">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-13 16:08:33 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<sourcePk>FAAFAF01-C1A2-AD3E-3FB2-056A2953FB20</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E76012DD-F347-95F1-A3AD-EA9AD149C227</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1768E96A-309B-D543-0877-2132FEC36C45</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

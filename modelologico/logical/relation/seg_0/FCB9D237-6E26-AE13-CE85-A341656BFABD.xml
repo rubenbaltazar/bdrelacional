@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Clase tiene detallle de Asistencia" directorySegmentName="seg_0" id="FCB9D237-6E26-AE13-CE85-A341656BFABD">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-13 16:19:14 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<sourcePk>6154A39B-1EE2-842B-745C-02F5A5514E7A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>26FE02B3-6612-FEFA-4D85-FA76D81F9B65</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>47A617F9-7694-C812-57AA-4481B6C594C3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

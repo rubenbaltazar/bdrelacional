@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C0153E2E-4688-EEEC-8B8B-59005D8436AC" name="ERP_AC_TIPO_PROGRAMA">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-13 16:16:25 UTC</createdTime>
+<generatorID>68A8AD38-4D01-06F1-47D5-E9D5F64FE6BB</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDTIPOPROGRAMA" id="10D49F1D-DEBF-5AFD-41C4-5A36998D1FE1">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-13 16:16:25 UTC</createdTime>
+<generatorID>70B82F88-E63E-4A55-2BD0-79A6C1F957D1</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGOTIPOPROGRAMA" id="61E323C1-36EB-0CED-5F86-18375D7A6733">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-13 16:16:25 UTC</createdTime>
+<generatorID>1167BF50-0161-8991-E5D5-9CBB4EB5CE9F</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ERP_AC_PROGRAMA_IDPROGRAMA" id="3E6654BE-04DC-E250-7E46-7B5012F7432A">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-13 16:16:25 UTC</createdTime>
+<generatorID>7C0D2500-69A6-0C8E-72CB-B02BBAEA9584</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D5063ED6-4E36-2004-7178-926770B4717E" referredColumn="739E53F2-15BD-9945-1C63-84818ED9FD5F"/>
+</associations>
+</Column>
+<Column name="NOMBRETIPOPROGRAMA" id="DDC57D1F-67AD-FE61-7471-81B06BADB692">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-16 13:57:44 UTC</createdTime>
+<generatorID>49392EF7-3E36-F668-82B6-DEFB5AA7D75D</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHASISTEMATIPOPROGRAMA" id="B005261A-EC1E-B87B-9806-A42FD6414ACF">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-16 13:57:44 UTC</createdTime>
+<generatorID>94CEE8B6-1B3A-FFFA-B1AD-4BC5DDBC14D0</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHACREACIONTIPOPROGRAMA" id="DCF0337F-D81A-A424-9A44-01786E19BF9B">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-16 13:57:44 UTC</createdTime>
+<generatorID>332E09B2-2239-9A93-4B74-9ACA1A2DE039</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHAMODTIPOPROGRAMA" id="CE8CFD0B-57FD-9F27-726E-04F61C158955">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-16 13:57:44 UTC</createdTime>
+<generatorID>CEFF70E7-2DDD-44BB-4FFC-4737A17E5AB2</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WUSERIDTIPOPROGRAMA" id="8A076DE2-8F94-F13A-9C9C-576BE1438BD4">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-16 13:57:44 UTC</createdTime>
+<generatorID>2BAAD1EE-3986-3A23-371E-AFF5F4FD722B</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UIDUSERTIPOPROGRAMA" id="DEEA1EFE-631F-05DD-9C5C-70856DEBF301">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-16 13:57:44 UTC</createdTime>
+<generatorID>DD835375-12EB-E066-A4D9-2BFDAD36DED8</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1232C978-E2CC-95C3-68F9-F9EEE0FC28F4" name="ERP_AC_TIPO_PROGRAMA_PKv1">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-16 13:57:44 UTC</createdTime>
+<generatorID>FBEEA37D-61F1-71FC-2CB8-521ECBA0DFD2</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="AC3474B0-78DE-272C-55AA-9739950ECB20" name="ERP_AC_TIPO_PROGRAMA_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-13 16:16:25 UTC</createdTime>
+<generatorID>1F0B93D6-C144-9C72-0A71-966BCF542357</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10D49F1D-DEBF-5AFD-41C4-5A36998D1FE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BA81060B-07E8-C610-EDBB-119E161B5C6F" name="ERP_AC_TIPO_PROGRAMA_ERP_AC_PROGRAMA_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-13 16:16:25 UTC</createdTime>
+<generatorID>04591F3E-40DB-ED42-5AF5-93FA8CABA74E</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E6654BE-04DC-E250-7E46-7B5012F7432A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

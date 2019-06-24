@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="tipos de cursos" directorySegmentName="seg_0" id="0C7EB746-0D7C-0D5D-BFDB-259F3C864CFE">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-15 14:25:00 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<sourcePk>AED3C7B2-B99B-9A74-E86C-2FDAAE01863F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9DBD528D-173F-0688-00E8-D53303D4D581</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9EB87A1B-7CA4-BAD9-773C-41002D18BBE6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

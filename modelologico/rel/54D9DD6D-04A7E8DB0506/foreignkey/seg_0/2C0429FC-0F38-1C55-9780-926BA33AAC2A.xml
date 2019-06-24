@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2C0429FC-0F38-1C55-9780-926BA33AAC2A" containerWithKeyObject="D427A520-11B2-A78C-385E-60E5560B079E" localFKIndex="109441C4-A5FC-AF56-382F-3C4BEFCCA5AB" name="ERP_AC_INTRUCTOR_ESCALA_ERP_AC_INSTRUCTOR_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-16 13:57:44 UTC</createdTime>
+<generatorID>A1D34AB8-F96C-D69E-B773-FB805E010B65</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<referredTableLongName>ERP_AC_INSTRUCTOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B0ED8451-9BED-8771-4B9E-4A1558DC6ECF</referredTableID>
+<keyObject>7B0778FF-1358-08DD-16CB-BFAC05025027</keyObject>
+<referredKeyID>7B0778FF-1358-08DD-16CB-BFAC05025027</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2D0A984F-F5C2-886F-A3F1-63A49243F2A3" name="ERP_AC_AULA">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-16 13:57:43 UTC</createdTime>
+<generatorID>F9BC6E22-3AE7-73C9-7087-76DF8065B23F</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDAULA" id="6098C1A4-B8C4-2A3F-245B-D828CEE8D0E3">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-16 13:57:43 UTC</createdTime>
+<generatorID>4B6E7373-5E4F-0C45-AA3C-2457CA41133B</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGOAULA" id="E8579E12-FE27-E7FD-8FA3-18F5CCF6C123">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-16 13:57:43 UTC</createdTime>
+<generatorID>EF2CB5C1-E888-D2B4-B506-F15AC8E772C8</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1F782125-9B90-21EB-26D6-39C444477B5C" name="ERP_AC_AULA_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-16 13:57:43 UTC</createdTime>
+<generatorID>92BE68C8-B18D-260B-9CA1-AB19780C2917</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

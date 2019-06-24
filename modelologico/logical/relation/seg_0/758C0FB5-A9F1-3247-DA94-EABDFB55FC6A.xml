@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Documentos De Evaluacion" directorySegmentName="seg_0" id="758C0FB5-A9F1-3247-DA94-EABDFB55FC6A">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-13 16:13:35 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<sourcePk>AED3C7B2-B99B-9A74-E86C-2FDAAE01863F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9DBD528D-173F-0688-00E8-D53303D4D581</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CC1C5999-D1B8-BF88-EC3E-DCED635F507E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

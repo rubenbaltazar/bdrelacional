@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="El aula tiene varios cursos" directorySegmentName="seg_0" id="BBBD0443-63FB-C20E-428F-705339EE050F">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-15 13:06:20 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<sourcePk>92BE68C8-B18D-260B-9CA1-AB19780C2917</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F9BC6E22-3AE7-73C9-7087-76DF8065B23F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9EB87A1B-7CA4-BAD9-773C-41002D18BBE6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

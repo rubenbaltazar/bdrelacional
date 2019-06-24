@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7F140BC8-7E1A-105A-EF06-107428CD0130" containerWithKeyObject="022F3282-0211-5D62-03D8-D3D21F64AC91" localFKIndex="1D257EE1-29D8-264A-207B-0236AF08694A" name="ERP_AC_DETALLE_ESCALA_SALARIAL_ERP_AC_ESCALA_SALARIAL_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-16 13:57:44 UTC</createdTime>
+<generatorID>3996B536-52E4-318A-81D9-4409476FAABE</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<referredTableLongName>ERP_AC_ESCALA_SALARIAL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0CEFD408-8AEE-2C31-91F7-8B50EC354B41</referredTableID>
+<keyObject>075C05BB-3315-5D21-646F-DD8CCA69672E</keyObject>
+<referredKeyID>075C05BB-3315-5D21-646F-DD8CCA69672E</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

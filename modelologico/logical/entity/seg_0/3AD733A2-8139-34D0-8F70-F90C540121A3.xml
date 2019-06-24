@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3AD733A2-8139-34D0-8F70-F90C540121A3" name="ERP_AC_PERSONAL_ESCALA">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-15 18:49:28 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDPERSONALESCALA" id="F66463BA-0946-36F7-17BD-36270094C109">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-15 18:49:47 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDPERSONAL" id="A6546F9E-2A0F-B668-F182-E721BCA68DB0">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-15 18:50:24 UTC</createdTime>
+<generatorID>A1D34AB8-F96C-D69E-B773-FB805E010B65</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<referedAttribute>1A58F322-11F1-B9F6-229D-92FC9059E998</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDESCALAINSTRUCTOR" id="8BB9EBBA-46F2-3E74-C9AD-CD301289235A">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-15 18:50:43 UTC</createdTime>
+<generatorID>0C36F449-903D-BAF4-FF06-C3398C521F00</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<referedAttribute>58E76911-63C0-0ED3-1AEC-29839866BFFA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDPERSONAL1" id="A8D89E8F-AB09-CF5C-5427-7EAB603F1321">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-22 18:36:05 UTC</createdTime>
+<generatorID>C48642FD-B2A5-AF3D-B564-8B7AD099A0A9</generatorID>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<referedAttribute>1A58F322-11F1-B9F6-229D-92FC9059E998</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0F7571D5-A755-FA52-5EA8-631F1AD6CB85" name="ERP_AC_INTRUCTOR_ESCALA PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-15 19:02:06 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F66463BA-0946-36F7-17BD-36270094C109</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Condiciones de Materia" directorySegmentName="seg_0" id="19DF89DD-0B71-FDC5-5C94-B1A73DE372DB">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-04-15 14:12:32 UTC</createdTime>
+<ownerDesignName>modelologico</ownerDesignName>
+<engineerTo>
+<item key="54D9DD6D-3292-E475-97B4-04A7E8DB0506" value="true"/>
+</engineerTo>
+<sourcePk>8A6277BC-C279-3817-103B-9077551ADB31</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1E1B2D2E-2A1B-78A9-E9B0-59B8B8DC1F5E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>92BD133B-2554-CD6F-0E47-5B020A43DBDE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
